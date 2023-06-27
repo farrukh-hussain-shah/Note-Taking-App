@@ -1,0 +1,117 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.room"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\Downloads\Room-master\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->D:\Downloads\Room-master\app\src\main\AndroidManifest.xml
+10
+11    <permission
+11-->[androidx.core:core:1.9.0] C:\Users\Farrukh Hussain\.gradle\caches\transforms-3\f3889f18d4f26e70cef4e17d11226053\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+12        android:name="com.example.room.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.9.0] C:\Users\Farrukh Hussain\.gradle\caches\transforms-3\f3889f18d4f26e70cef4e17d11226053\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.9.0] C:\Users\Farrukh Hussain\.gradle\caches\transforms-3\f3889f18d4f26e70cef4e17d11226053\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.example.room.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.9.0] C:\Users\Farrukh Hussain\.gradle\caches\transforms-3\f3889f18d4f26e70cef4e17d11226053\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.9.0] C:\Users\Farrukh Hussain\.gradle\caches\transforms-3\f3889f18d4f26e70cef4e17d11226053\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->D:\Downloads\Room-master\app\src\main\AndroidManifest.xml:5:5-36:19
+18        android:allowBackup="true"
+18-->D:\Downloads\Room-master\app\src\main\AndroidManifest.xml:6:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.9.0] C:\Users\Farrukh Hussain\.gradle\caches\transforms-3\f3889f18d4f26e70cef4e17d11226053\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+20        android:dataExtractionRules="@xml/data_extraction_rules"
+20-->D:\Downloads\Room-master\app\src\main\AndroidManifest.xml:7:9-65
+21        android:debuggable="true"
+22        android:fullBackupContent="@xml/backup_rules"
+22-->D:\Downloads\Room-master\app\src\main\AndroidManifest.xml:8:9-54
+23        android:icon="@mipmap/ic_launcher"
+23-->D:\Downloads\Room-master\app\src\main\AndroidManifest.xml:9:9-43
+24        android:label="NotePad"
+24-->D:\Downloads\Room-master\app\src\main\AndroidManifest.xml:10:9-32
+25        android:roundIcon="@mipmap/ic_launcher_round"
+25-->D:\Downloads\Room-master\app\src\main\AndroidManifest.xml:11:9-54
+26        android:supportsRtl="true"
+26-->D:\Downloads\Room-master\app\src\main\AndroidManifest.xml:12:9-35
+27        android:theme="@style/Theme.Room" >
+27-->D:\Downloads\Room-master\app\src\main\AndroidManifest.xml:13:9-42
+28        <activity
+28-->D:\Downloads\Room-master\app\src\main\AndroidManifest.xml:15:9-22:20
+29            android:name="com.example.room.activities.AddEditActivity"
+29-->D:\Downloads\Room-master\app\src\main\AndroidManifest.xml:16:13-55
+30            android:exported="false"
+30-->D:\Downloads\Room-master\app\src\main\AndroidManifest.xml:17:13-37
+31            android:parentActivityName="com.example.room.MainActivity" >
+31-->D:\Downloads\Room-master\app\src\main\AndroidManifest.xml:18:13-55
+32            <meta-data
+32-->D:\Downloads\Room-master\app\src\main\AndroidManifest.xml:19:13-21:36
+33                android:name="android.app.lib_name"
+33-->D:\Downloads\Room-master\app\src\main\AndroidManifest.xml:20:17-52
+34                android:value="" />
+34-->D:\Downloads\Room-master\app\src\main\AndroidManifest.xml:21:17-33
+35        </activity>
+36        <activity
+36-->D:\Downloads\Room-master\app\src\main\AndroidManifest.xml:23:9-35:20
+37            android:name="com.example.room.MainActivity"
+37-->D:\Downloads\Room-master\app\src\main\AndroidManifest.xml:24:13-41
+38            android:exported="true" >
+38-->D:\Downloads\Room-master\app\src\main\AndroidManifest.xml:25:13-36
+39            <intent-filter>
+39-->D:\Downloads\Room-master\app\src\main\AndroidManifest.xml:26:13-30:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->D:\Downloads\Room-master\app\src\main\AndroidManifest.xml:27:17-69
+40-->D:\Downloads\Room-master\app\src\main\AndroidManifest.xml:27:25-66
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->D:\Downloads\Room-master\app\src\main\AndroidManifest.xml:29:17-77
+42-->D:\Downloads\Room-master\app\src\main\AndroidManifest.xml:29:27-74
+43            </intent-filter>
+44
+45            <meta-data
+45-->D:\Downloads\Room-master\app\src\main\AndroidManifest.xml:19:13-21:36
+46                android:name="android.app.lib_name"
+46-->D:\Downloads\Room-master\app\src\main\AndroidManifest.xml:20:17-52
+47                android:value="" />
+47-->D:\Downloads\Room-master\app\src\main\AndroidManifest.xml:21:17-33
+48        </activity>
+49
+50        <service
+50-->[androidx.room:room-runtime:2.5.0] C:\Users\Farrukh Hussain\.gradle\caches\transforms-3\ea76c4dab943d9cc28c50765786034c5\transformed\room-runtime-2.5.0\AndroidManifest.xml:24:9-28:63
+51            android:name="androidx.room.MultiInstanceInvalidationService"
+51-->[androidx.room:room-runtime:2.5.0] C:\Users\Farrukh Hussain\.gradle\caches\transforms-3\ea76c4dab943d9cc28c50765786034c5\transformed\room-runtime-2.5.0\AndroidManifest.xml:25:13-74
+52            android:directBootAware="true"
+52-->[androidx.room:room-runtime:2.5.0] C:\Users\Farrukh Hussain\.gradle\caches\transforms-3\ea76c4dab943d9cc28c50765786034c5\transformed\room-runtime-2.5.0\AndroidManifest.xml:26:13-43
+53            android:exported="false" />
+53-->[androidx.room:room-runtime:2.5.0] C:\Users\Farrukh Hussain\.gradle\caches\transforms-3\ea76c4dab943d9cc28c50765786034c5\transformed\room-runtime-2.5.0\AndroidManifest.xml:27:13-37
+54
+55        <provider
+55-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Farrukh Hussain\.gradle\caches\transforms-3\412372332f980a5c4ef0364c55a99af0\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+56            android:name="androidx.startup.InitializationProvider"
+56-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Farrukh Hussain\.gradle\caches\transforms-3\412372332f980a5c4ef0364c55a99af0\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+57            android:authorities="com.example.room.androidx-startup"
+57-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Farrukh Hussain\.gradle\caches\transforms-3\412372332f980a5c4ef0364c55a99af0\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+58            android:exported="false" >
+58-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Farrukh Hussain\.gradle\caches\transforms-3\412372332f980a5c4ef0364c55a99af0\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+59            <meta-data
+59-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Farrukh Hussain\.gradle\caches\transforms-3\412372332f980a5c4ef0364c55a99af0\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+60                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+60-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Farrukh Hussain\.gradle\caches\transforms-3\412372332f980a5c4ef0364c55a99af0\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+61                android:value="androidx.startup" />
+61-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Farrukh Hussain\.gradle\caches\transforms-3\412372332f980a5c4ef0364c55a99af0\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+62            <meta-data
+62-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Farrukh Hussain\.gradle\caches\transforms-3\a8199b6bb025d711471524267dd78014\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+63                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+63-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Farrukh Hussain\.gradle\caches\transforms-3\a8199b6bb025d711471524267dd78014\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+64                android:value="androidx.startup" />
+64-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Farrukh Hussain\.gradle\caches\transforms-3\a8199b6bb025d711471524267dd78014\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+65        </provider>
+66    </application>
+67
+68</manifest>
